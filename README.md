@@ -16,4 +16,6 @@ The analysis is done completely in Jupiter notebooks using the ArcGIS Pro python
 Possible errors and messages:
 In several tools you might get this a tool validator license warning which you can ignore. You might also get an error with the astropy site that tries to reach out to get some tables from a .mil website. You can see the code in the function can be altered to use interpolated tables instead or offline mode.
 
-To see the result add to Pro and set up a time slider and you can see the road segments affected by solar glare. 3D enhanced road geometry is an additional bonus output. Added is a zip file containing a geodatabase for sample output for the City of Falls church for several times of the year. You will need to provide your own input data for your study area.
+
+Included files:
+To see the result add to Pro and set up a time slider and you can see the road segments affected by solar glare. 3D enhanced road geometry is an additional bonus output. Added is a zip file containing a geodatabase for sample output for the City of Falls church for several times of the year. Also included is the input streets used. The current lat long in the project is for this area. You will need to provide your own input elevation data as that is too large to include here. You can export it from the Living atlas for the area as a tif.
