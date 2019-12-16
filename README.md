@@ -1,4 +1,6 @@
 # solarglareroad
+Version 1.0 12/6/2019
+
 This is a geographic analysis that calculates the road segments that are vulnerable to solar glare, in the hope that accidents caused by direct sun glare, when the sun is only a few degrees off the direction of travel, in both the horizontal and vertical angles, can be avoided, either by scheduling delivery travel at other times, or by posting signs along the roadway as warnings. The slope and direction of the road are compared at every 5 minute interval, for every 100m road segment in the study area to the horizontal and vertical angle of the sun. 
 
 The number of calculations are large and the use of jupyter notebooks with spatial panda dataframes are used. All attribute calculations are done within pandas when possible, with only a small amount of calculations required from the ArcGIS Pro libraries, which are primarly needed for the import and export of the elevation and featureclass data, and the calculation of the elevation values at the end of each road segment, and the roadsegment bearing. The astronomy python library has the functions needed to find the position of the sun, for a particular day, time, and lat/long coordinate position. The rest of the script is simply a set of logic to set up and manage the calculations in an effecient manner. 
